@@ -14,13 +14,15 @@ jobs:
           submodules: recursive
 
       - name: Build GDS
-        uses: TinyTapeout/tt-gds-action@tt04
+        # Cambiar referencia al fork/branch corregido si hace falta
+        uses: MariaGrado/tt-gds-action@fix/upload-artifact-v4
 
   viewer:
     needs: gds
     runs-on: ubuntu-latest
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write
+      id-token: write
     steps:
-      - uses: TinyTapeout/tt-gds-action/viewer@tt04
+      # Cambiar referencia a la acción viewer corregida en tu fork si aplica
+      - uses: MariaGrado/tt-gds-action/viewer@fix/upload-artifact-v4
