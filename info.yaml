@@ -30,7 +30,7 @@ documentation:
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
       Cuando se selecciona una combinación de entradas, el display enciende los segmentos correspondientes para formar la letra deseada. 
-      El circuito se implementa con compuertas lógicas (AND, OR, NOT, XOR). 
+      El circuito se implementa con compuertas lógicas (AND, OR, NOT, XOR)..
 
 
 
