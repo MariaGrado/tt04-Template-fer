@@ -14,4 +14,5 @@ jobs:
           submodules: recursive
 
       - name: Build docs
-        uses: TinyTapeout/tt-gds-action/docs@tt04
+        # Cambia la línea siguiente para apuntar a tu fork/branch corregido si aún no arreglan upstream
+        uses: MariaGrado/tt-gds-action@fix/upload-artifact-v4
